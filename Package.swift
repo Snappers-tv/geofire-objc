@@ -13,6 +13,6 @@ let package = Package(
     ],
   
     targets: [
-        .target(name: "GeoFire",  dependencies: [], path: "")
+        .target(name: "GeoFire", dependencies: [], path: "./Sources/Soto/Services/ACM"),
     ]
 )
