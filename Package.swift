@@ -7,12 +7,12 @@ let package = Package(
         .iOS(.v11)
     ],
       products: [
-        .library(name: "Logger", targets: ["Logger"]),
+        .library(name: "GeoFire", targets: ["GeoFire"]),
     ],
     dependencies: [
     ],
   
     targets: [
-        .target(name: "Logger",  dependencies: [], path: "")
+        .target(name: "GeoFire",  dependencies: [], path: "")
     ]
 )
