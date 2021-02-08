@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Emoji-Logger",
+    name: "GeoFire",
     platforms: [
         .iOS(.v11)
     ],
@@ -13,6 +13,6 @@ let package = Package(
     ],
   
     targets: [
-        .target(name: "GeoFire", dependencies: [], path: "./GeoFire"),
+        .target(name: "GeoFire", dependencies: []),
     ]
 )
