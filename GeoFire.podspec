@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = "GeoFire/**/*.{h,m}"
   s.documentation_url   = "https://geofire-ios.firebaseapp.com/docs/"
   #s.ios.deployment_target = '13.0'
-  #s.ios.dependency  'Firebase/Database'
+  s.ios.dependency  'Firebase/Database'
   s.frameworks   = 'CoreLocation', 'FirebaseDatabase'
   s.requires_arc = true
   s.static_framework = true
