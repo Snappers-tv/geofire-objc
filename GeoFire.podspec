@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GeoFire"
-  s.version      = "4.1.6s"
+  s.version      = "4.1.7s"
   s.summary      = "Realtime location queries with Firebase."
   s.homepage     = "https://github.com/Snappers-tv/geofire-objc"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
